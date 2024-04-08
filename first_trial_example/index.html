@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualization Example</title>
+    <!-- Load D3.js -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        /* CSS styles for the chart */
+        .bar {
+            fill: steelblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Data Visualization Example</h1>
+    <div id="chart"></div>
+
+    <script>
+        // Sample data
+        const data = [30, 50, 80, 120, 150];
+
+        // Create SVG element
+        const svg = d3.select("#chart")
+                    .append("svg")
+                    .attr("width", 400)
+                    .attr("height", 200);
+
+        // Create bars
+        svg.selectAll("rect")
+            .data(data)
+            .enter()
+            .append("rect")
+            .attr("class", "bar")
+            .attr("x", (d, i) => i * 80)
+            .attr("y", (d) => 200 - d)
+            .attr("width", 50)
+            .attr("height", (d) => d);
+    </script>
+</body>
+</html>
