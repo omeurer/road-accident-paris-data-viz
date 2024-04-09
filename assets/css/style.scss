@@ -1,0 +1,39 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 200%;
+    font-family: Arial, sans-serif;
+}
+
+.section {
+    height: 100vh;
+    text-align: center;
+}
+
+.section1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/paris-map.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+.title {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2em;
+    color: #8b9c73; /* neutral green */
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.section3, .section4 {
+    background-color: #c6a864; /* R198, G168, B100 */
+}
