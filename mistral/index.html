@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Visualization Project</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 200%;
+            font-family: Arial, sans-serif;
+        }
+        .section {
+            height: 100vh;
+            text-align: center;
+        }
+        .section1 {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/paris-map.jpeg') no-repeat center center;
+            background-size: cover;
+        }
+        .title {
+            position: absolute;
+            top: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 2em;
+            color: #8b9c73; /* neutral green */
+        }
+        h2 {
+            padding-top: 20px;
+        }
+        button {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+        }
+        .section3, .section4 {
+            background-color: #c6a864; /* R198, G168, B100 */
+        }
+    </style>
+</head>
+<body>
+    <div class="section section1">
+        <h1 class="title">Data Visualization Project</h1>
+        <button onclick="scrollToNext(1)">Go to Section 2</button>
+    </div>
+    <div class="section section2" id="section2">
+    <h2>Section 2</h2>
+    <iframe src="../mistral/mistral.html" width="100%" height="500"></iframe>
+    <button onclick="scrollToNext(2)">Go to Section 3</button>
+</div>
+    <div class="section section3" id="section3">
+        <h2>Section 3</h2>
+        <button onclick="scrollToNext(3)">Go to Section 4</button>
+    </div>
+    <div class="section section4" id="section4">
+        <h2>Section 4</h2>
+    </div>
+
+    <script>
+        function scrollToNext(sectionNumber) {
+            var nextSection = document.getElementById('section' + (sectionNumber + 2));
+            if (nextSection) {
+                nextSection.scrollIntoView({behavior: "smooth"});
+            }
+        }
+    </script>
+</body>
+</html>
