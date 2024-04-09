@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paris Map Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('../images/paris-map.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* Keep background fixed for other sections */
+            height: 400vh; /* Extend body height for scrolling */
+            overflow-y: auto; /* Allow vertical scrolling */
+            filter: brightness(50%); /* Reduce background visibility */
+        }
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100vh; /* Adjust container height if needed */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            z-index: 1; /* Ensure content is above background */
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .buttons {
+            display: flex; /* Show all buttons initially for first layout */
+            justify-content: center;
+        }
+        .buttons button {
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 1.2em;
+            background-color: rgba(255, 255, 255, 0.5);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            opacity: 0; /* Initially hide buttons */
+        }
+        .buttons button:hover {
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+        .back-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: rgba(255, 255, 255, 0.5);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            z-index: 1; /* Ensure button is above background */
+        }
+        .back-button:hover {
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+
+        /* Show buttons only within their respective sections */
+        #section1 .buttons button:nth-child(2),
+        #section1 .buttons button:nth-child(3) {
+            opacity: 0;
+        }
+
+        #section2 .buttons button:nth-child(2) {
+            opacity: 1;
+        }
+
+        #section2 .buttons button:nth-child(3) {
+            opacity: 0;
+        }
+
+        #section3 .buttons button:nth-child(2),
+        #section3 .buttons button:nth-child(3) {
+            opacity: 1;
+        }
+
+        #section4 .buttons button:nth-child(2) {
+            opacity: 0;
+        }
+
+        /* Background colors for sections */
+        #section1 {
+            background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent black for section 1 */
+        }
+
+        #section2, #section3 {
+            background-color: #f5f5f5; /* Light gray for sections 2 and 3 */
+        }
+
+        #section4 {
+            background-color: lightblue; /*
+
+        }
+    </style>
+</head>
+<body>
+    <button class="back-button" onclick="goBack()">Back</button>
+    <div class="container">
+        <h1>Welcome to Paris!</h1>
+        <div class="buttons">
+            <button onclick="scrollToSection('section2')">Next</button>
+            <button onclick="scrollToSection('section3')">Next</button>
+            <button onclick="scrollToSection('section4')">Next</button>
+        </div>
+    </div>
+
+    <section id="section1" style="height: 100vh;"></section>
+    <section id="section2" style="height: 100vh;"></section>
+    <section id="section3" style="height: 100vh;"></section>
+    <section id="section4" style="height: 100vh;"></section>
+
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
+
+
