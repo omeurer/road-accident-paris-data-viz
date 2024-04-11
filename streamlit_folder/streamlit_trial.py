@@ -1,8 +1,8 @@
 import requests
+import pandas as pd
 
 # URL of the JSON file on GitHub
-url = 'https://raw.githubusercontent.com/yourusername/yourrepository/master/yourfile.json'
-
+url = 'https://raw.githubusercontent.com/omeurer/road-accident-paris-data-viz/streamlit-try/data/full_data.json'
 # Fetch the JSON file from the URL
 response = requests.get(url)
 
@@ -11,7 +11,10 @@ if response.status_code == 200:
     # Extract the JSON data
     data = response.json()
 
-    # Now you have your JSON data and can process it as needed
-    print(data)
+    # Convert JSON data to DataFrame
+    df = pd.DataFrame(data)
+
+    # Now you have your DataFrame
+    print(df)
 else:
     print('Failed to fetch data from GitHub:', response.status_code)
