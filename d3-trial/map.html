@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accident Heatmap</title>
+    <!-- Load Leaflet.js library and Heatmap plugin -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+</head>
+<body>
+    <!-- Buttons for selecting 'gravite' types -->
+    <button onclick="showHeatmap('Blessé léger')">Blessé léger</button>
+    <button onclick="showHeatmap('Hospitalisés')">Hospitalisés</button>
+    <button onclick="showHeatmap('Tués')">Tués</button>
+
+    <!-- Container for the map -->
+    <div id="map" style="height: 600px;"></div>
+
+    <script>
+        var map = L.map('map').setView([48.8566, 2.3522], 12); // Coordinates for Paris
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Function to show heatmap for selected 'gravite' type
+        function showHeatmap(gravite) {
+            // Clear previous heatmap layer
+            if (window.heatmapLayer) {
+                map.removeLayer(window.heatmapLayer);
+            }
+
+            // Filter data based on selected 'gravite' type
+            var data = getDataForGravite(gravite);
+
+            // Extract coordinates for heatmap
+            var heatData = data.map(function(accident) {
+                return [accident.latitude, accident.longitude];
+            });
+
+            // Create heatmap layer
+            window.heatmapLayer = L.heatLayer(heatData).addTo(map);
+        }
+
+        // Function to get data for selected 'gravite' type
+        function getDataForGravite(gravite) {
+            switch (gravite) {
+                case 'Blessé léger':
+                    return blesséLégerData; // Replace with actual data
+                case 'Hospitalisés':
+                    return hospitalisésData; // Replace with actual data
+                case 'Tués':
+                    return tuésData; // Replace with actual data
+                default:
+                    return [];
+            }
+        }
+    </script>
+</body>
+</html>

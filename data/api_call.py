@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 
 # API endpoint URL
-url = "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/accidentologie0/records?limit=20"
+url = "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/accidentologie0/records"
 
 # Parameters for the API request
 # Sending GET request to the API
@@ -12,7 +12,8 @@ params = {
     'disjunctive.gravite': True,
     'disjunctive.tranche_age_victime': True,
     'sort': '-com_arm_code',
-    'format': 'json'
+    'format': 'json',
+    'limit': 999
 }
 
 
@@ -32,3 +33,5 @@ def get_dataframe():
         print("Error occurred while downloading data. Status code:", response.status_code)
 
     return df
+
+print(len(get_dataframe()))
