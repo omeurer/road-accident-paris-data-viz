@@ -1,0 +1,771 @@
+{
+  "total_count": 35760,
+  "results": [
+    {
+      "idusager": "1801966",
+      "annee": "2018-03-07",
+      "pv": "6721",
+      "com_arm_code": 75117,
+      "victime_type": "4 Roues",
+      "categorie": "Conducteur",
+      "gravite": "Blessé léger",
+      "age": 59,
+      "sexe_victime": "Masculin",
+      "milieu": "En-Agg",
+      "adresse": "62, BOULEVARD BESSIERES",
+      "libelle_commune": "Paris 17e Arrondissement",
+      "longitude": "2.32159",
+      "latitude": "48.8973",
+      "id_accident": "641764",
+      "pim_bp": "Paris Intra Muros",
+      "tranche_age_victime": "55-64 ans",
+      "blesses_legers": 1,
+      "hospitalises": null,
+      "tues": null,
+      "resume": "Accident Léger non mortel, En agglomération, Hors intersection, Plein jour, avec une météo Normale et une surface chaussée : Normale. \n\n1 Véhicule de tourisme (VT) circulant sur Voie Communale VC conduit par 1 usager Masculin de 59 ans (BL)",
+      "coordonnes": {
+        "lon": 2.32159,
+        "lat": 48.8973
+      },
+      "iris": "Paris 17e Arrondissement",
+      "arronco": "75117",
+      "arrondgeo": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            [
+              [
+                [2.327423136, 48.883507801],
+                [2.327164725, 48.883455087],
+                [2.316479725, 48.881341384],
+                [2.308874779, 48.880434361],
+                [2.298154863, 48.878076886],
+                [2.295032069, 48.873773177],
+                [2.279949333, 48.878573124],
+                [2.280897352, 48.882792224],
+                [2.28101352, 48.88297099],
+                [2.284538198, 48.885574097],
+                [2.284459572, 48.885639278],
+                [2.285641616, 48.886554664],
+                [2.291147764, 48.889301571],
+                [2.291633908, 48.889455535],
+                [2.295013183, 48.889874781],
+                [2.298628376, 48.891717152],
+                [2.303774362, 48.894153779],
+                [2.307687317, 48.896010186],
+                [2.312451445, 48.897782318],
+                [2.318520206, 48.899638128],
+                [2.319887175, 48.900459782],
+                [2.320434139, 48.90077585],
+                [2.330147117, 48.901043706],
+                [2.325595877, 48.887507635],
+                [2.327423136, 48.883507801]
+              ]
+            ]
+          ],
+          "type": "MultiPolygon"
+        },
+        "properties": {
+
+        }
+      }
+    },
+    {
+      "idusager": "181217955",
+      "annee": "2019-07-24",
+      "pv": "7423",
+      "com_arm_code": 75117,
+      "victime_type": "2 Roues Motorisées",
+      "categorie": "Conducteur",
+      "gravite": "Blessé léger",
+      "age": 23,
+      "sexe_victime": "Feminin",
+      "milieu": "En-Agg",
+      "adresse": "RUE LA CONDAMINE",
+      "libelle_commune": "Paris 17e Arrondissement",
+      "longitude": "2.321649",
+      "latitude": "48.88577",
+      "id_accident": "63444639",
+      "pim_bp": "Paris Intra Muros",
+      "tranche_age_victime": "18-24 ans",
+      "blesses_legers": 1,
+      "hospitalises": null,
+      "tues": null,
+      "resume": "Accident Léger non mortel, En agglomération, En X, Nuit avec éclairage public  allumé, avec une météo Normale et une surface chaussée : Normale. \n\n1 Véhicule de tourisme (VT) circulant sur Voie Communale VC (VMA à 30) conduit par 1 usager Masculin de 58 ans (Ind)\n\nheurte 1 Scooter \u003C= 50 cm3 conduit par 1 usager Feminin de 23 ans  ( BL )",
+      "coordonnes": {
+        "lon": 2.321649,
+        "lat": 48.88577
+      },
+      "iris": "Paris 17e Arrondissement",
+      "arronco": "75117",
+      "arrondgeo": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            [
+              [
+                [2.327423136, 48.883507801],
+                [2.327164725, 48.883455087],
+                [2.316479725, 48.881341384],
+                [2.308874779, 48.880434361],
+                [2.298154863, 48.878076886],
+                [2.295032069, 48.873773177],
+                [2.279949333, 48.878573124],
+                [2.280897352, 48.882792224],
+                [2.28101352, 48.88297099],
+                [2.284538198, 48.885574097],
+                [2.284459572, 48.885639278],
+                [2.285641616, 48.886554664],
+                [2.291147764, 48.889301571],
+                [2.291633908, 48.889455535],
+                [2.295013183, 48.889874781],
+                [2.298628376, 48.891717152],
+                [2.303774362, 48.894153779],
+                [2.307687317, 48.896010186],
+                [2.312451445, 48.897782318],
+                [2.318520206, 48.899638128],
+                [2.319887175, 48.900459782],
+                [2.320434139, 48.90077585],
+                [2.330147117, 48.901043706],
+                [2.325595877, 48.887507635],
+                [2.327423136, 48.883507801]
+              ]
+            ]
+          ],
+          "type": "MultiPolygon"
+        },
+        "properties": {
+
+        }
+      }
+    },
+    {
+      "idusager": "240575",
+      "annee": "2021-10-23",
+      "pv": "8997",
+      "com_arm_code": 75117,
+      "victime_type": "2 Roues Motorisées",
+      "categorie": "Conducteur",
+      "gravite": "Blessé léger",
+      "age": 44,
+      "sexe_victime": "Masculin",
+      "milieu": "En-Agg",
+      "adresse": "AVENUE DE CLICHY",
+      "libelle_commune": "Paris 17e Arrondissement",
+      "longitude": "2.321721",
+      "latitude": "48.889699",
+      "id_accident": "105688",
+      "pim_bp": "Paris Intra Muros",
+      "tranche_age_victime": "35-44 ans",
+      "blesses_legers": 1,
+      "hospitalises": null,
+      "tues": null,
+      "resume": "Accident Léger non mortel, En agglomération, En X, Nuit avec éclairage public  allumé, avec une météo Normale et une surface chaussée : Normale. \n\n1 Scooter \u003C= 50 cm3 circulant sur Voie Communale VC (VMA à 30) conduit par 1 usager Masculin de 34 ans (BL)\n\nheurte 1 Moto ou sidecar \u003E 125 cm3 conduit par 1 usager Masculin de 44 ans  ( BL )  avec 1 passager(s)  ( 1BL ).",
+      "coordonnes": {
+        "lon": 2.321721,
+        "lat": 48.889699
+      },
+      "iris": "Paris 17e Arrondissement",
+      "arronco": "75117",
+      "arrondgeo": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            [
+              [
+                [2.327423136, 48.883507801],
+                [2.327164725, 48.883455087],
+                [2.316479725, 48.881341384],
+                [2.308874779, 48.880434361],
+                [2.298154863, 48.878076886],
+                [2.295032069, 48.873773177],
+                [2.279949333, 48.878573124],
+                [2.280897352, 48.882792224],
+                [2.28101352, 48.88297099],
+                [2.284538198, 48.885574097],
+                [2.284459572, 48.885639278],
+                [2.285641616, 48.886554664],
+                [2.291147764, 48.889301571],
+                [2.291633908, 48.889455535],
+                [2.295013183, 48.889874781],
+                [2.298628376, 48.891717152],
+                [2.303774362, 48.894153779],
+                [2.307687317, 48.896010186],
+                [2.312451445, 48.897782318],
+                [2.318520206, 48.899638128],
+                [2.319887175, 48.900459782],
+                [2.320434139, 48.90077585],
+                [2.330147117, 48.901043706],
+                [2.325595877, 48.887507635],
+                [2.327423136, 48.883507801]
+              ]
+            ]
+          ],
+          "type": "MultiPolygon"
+        },
+        "properties": {
+
+        }
+      }
+    },
+    {
+      "idusager": "2394379",
+      "annee": "2017-02-13",
+      "pv": "1587",
+      "com_arm_code": 75118,
+      "victime_type": "2 Roues Motorisées",
+      "categorie": "Conducteur",
+      "gravite": "Blessé hospitalisé",
+      "age": 18,
+      "sexe_victime": "Masculin",
+      "milieu": "En-Agg",
+      "adresse": "BOULEVARD NEY",
+      "libelle_commune": "Paris 18e Arrondissement",
+      "longitude": "2.36557",
+      "latitude": "48.8986",
+      "id_accident": "840104",
+      "pim_bp": "Paris Intra Muros",
+      "tranche_age_victime": "18-24 ans",
+      "blesses_legers": null,
+      "hospitalises": 1,
+      "tues": null,
+      "resume": "Accident Grave non mortel, En agglomération, En T, Crépuscule ou aube, avec une météo Normale et une surface chaussée : Normale. \n\n1 VU seul 1,5T \u003C PTAC \u003C=3,5T circulant sur Voie Communale VC conduit par 1 usager Masculin de 40 ans (Ind)\n\nheurte 1 Scooter \u003C= 50 cm3 conduit par 1 usager Masculin de 18 ans  ( BH )",
+      "coordonnes": {
+        "lon": 2.36557,
+        "lat": 48.8986
+      },
+      "iris": "Paris 18e Arrondissement",
+      "arronco": "75118",
+      "arrondgeo": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            [
+              [
+                [2.365619904, 48.90175755],
+                [2.370301805, 48.901847906],
+                [2.370170291, 48.901555837],
+                [2.370334572, 48.90094337],
+                [2.370254297, 48.899911435],
+                [2.370420494, 48.896658585],
+                [2.371175976, 48.895994362],
+                [2.371267007, 48.895797889],
+                [2.371791556, 48.895393251],
+                [2.370639175, 48.894703719],
+                [2.370035222, 48.89400537],
+                [2.368738771, 48.891028987],
+                [2.36756099, 48.888624279],
+                [2.366762718, 48.886644243],
+                [2.364713572, 48.884366187],
+                [2.358943445, 48.884406478],
+                [2.349464986, 48.883724923],
+                [2.346909327, 48.883414231],
+                [2.339801969, 48.882023555],
+                [2.337400148, 48.882386207],
+                [2.332482251, 48.883825698],
+                [2.329540572, 48.884589881],
+                [2.328121478, 48.883706877],
+                [2.327423136, 48.883507801],
+                [2.325595877, 48.887507635],
+                [2.330147117, 48.901043706],
+                [2.351983536, 48.901484899],
+                [2.365619904, 48.90175755]
+              ]
+            ]
+          ],
+          "type": "MultiPolygon"
+        },
+        "properties": {
+
+        }
+      }
+    },
+    {
+      "idusager": "2389585",
+      "annee": "2017-08-08",
+      "pv": "8571",
+      "com_arm_code": 75111,
+      "victime_type": "2 Roues Motorisées",
+      "categorie": "Conducteur",
+      "gravite": "Blessé léger",
+      "age": 46,
+      "sexe_victime": "Masculin",
+      "milieu": "En-Agg",
+      "adresse": "RUE DE CRUSSOL",
+      "libelle_commune": "Paris 11e Arrondissement",
+      "longitude": "2.36635",
+      "latitude": "48.8637",
+      "id_accident": "837709",
+      "pim_bp": "Paris Intra Muros",
+      "tranche_age_victime": "45-54 ans",
+      "blesses_legers": 1,
+      "hospitalises": null,
+      "tues": null,
+      "resume": "Accident Léger non mortel, En agglomération, En T, Plein jour, avec une météo Temps couvert et une surface chaussée : Normale. \n\n1 Véhicule de tourisme (VT) circulant sur Voie Communale VC conduit par 1 usager Masculin de 41 ans (Ind)\n\nheurte 1 Moto ou sidecar  \u003E 50 \u003C= 125 cm3 conduit par 1 usager Masculin de 46 ans  ( BL )",
+      "coordonnes": {
+        "lon": 2.36635,
+        "lat": 48.8637
+      },
+      "iris": "Paris 3e Arrondissement",
+      "arronco": "75103",
+      "arrondgeo": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            [
+              [
+                [2.35016445, 48.861985423],
+                [2.350955108, 48.863401688],
+                [2.354252672, 48.869323713],
+                [2.356495893, 48.868829465],
+                [2.363290447, 48.867816272],
+                [2.363872117, 48.867516287],
+                [2.364306785, 48.86730905],
+                [2.364890494, 48.866169984],
+                [2.366747947, 48.863076193],
+                [2.368490887, 48.855805186],
+                [2.368278516, 48.855785178],
+                [2.364941218, 48.856306224],
+                [2.361767758, 48.857243551],
+                [2.359344592, 48.8583395],
+                [2.356742166, 48.86014672],
+                [2.353499932, 48.861212962],
+                [2.35016445, 48.861985423]
+              ]
+            ]
+          ],
+          "type": "MultiPolygon"
+        },
+        "properties": {
+
+        }
+      }
+    },
+    {
+      "idusager": "202591460",
+      "annee": "2020-11-28",
+      "pv": "9773",
+      "com_arm_code": 75119,
+      "victime_type": "Piéton",
+      "categorie": "Piéton",
+      "gravite": "Blessé léger",
+      "age": 54,
+      "sexe_victime": "Feminin",
+      "milieu": "En-Agg",
+      "adresse": "BOULEVARD DE LA VILLETTE",
+      "libelle_commune": "Paris 19e Arrondissement",
+      "longitude": "2.366883",
+      "latitude": "48.884339",
+      "id_accident": "66554058",
+      "pim_bp": "Paris Intra Muros",
+      "tranche_age_victime": "45-54 ans",
+      "blesses_legers": 1,
+      "hospitalises": null,
+      "tues": null,
+      "resume": "Accident Léger non mortel, En agglomération, En X, Nuit avec éclairage public  allumé, avec une météo Normale et une surface chaussée : Normale. \n\n1 Nouvel engin de déplacement personnel (EDP) à moteur circulant sur Voie Communale VC (VMA à 30)\n\n\nheurte 1 Piéton Feminin de 54 ans (BL).",
+      "coordonnes": {
+        "lon": 2.366883,
+        "lat": 48.884339
+      },
+      "iris": "Paris 19e Arrondissement",
+      "arronco": "75119",
+      "arrondgeo": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            [
+              [
+                [2.376904765, 48.872048259],
+                [2.370290292, 48.877990622],
+                [2.37022798, 48.882467161],
+                [2.370032562, 48.882840253],
+                [2.369301393, 48.883313048],
+                [2.368828249, 48.883872634],
+                [2.368498641, 48.884065151],
+                [2.367977989, 48.884155933],
+                [2.364713572, 48.884366187],
+                [2.366762718, 48.886644243],
+                [2.36756099, 48.888624279],
+                [2.368738771, 48.891028987],
+                [2.370035222, 48.89400537],
+                [2.370639175, 48.894703719],
+                [2.371791556, 48.895393251],
+                [2.371267007, 48.895797889],
+                [2.371175976, 48.895994362],
+                [2.370420494, 48.896658585],
+                [2.370254297, 48.899911435],
+                [2.370334572, 48.90094337],
+                [2.370170291, 48.901555837],
+                [2.370301805, 48.901847906],
+                [2.384530046, 48.902147593],
+                [2.389332401, 48.901161349],
+                [2.39083724, 48.900907313],
+                [2.395610585, 48.898169708],
+                [2.397667826, 48.894606196],
+                [2.398236115, 48.892640449],
+                [2.398941655, 48.889532349],
+                [2.399135941, 48.88853238],
+                [2.399251618, 48.88536195],
+                [2.400106665, 48.883821199],
+                [2.401507161, 48.882631206],
+                [2.404575851, 48.88126874],
+                [2.409359836, 48.880255513],
+                [2.410820319, 48.878436176],
+                [2.409924373, 48.878206931],
+                [2.40685319, 48.877182706],
+                [2.406163368, 48.877055179],
+                [2.402552809, 48.875995789],
+                [2.398965987, 48.875491296],
+                [2.39525077, 48.875247752],
+                [2.392262385, 48.875462847],
+                [2.390457493, 48.87543928],
+                [2.38964513, 48.875302939],
+                [2.388496636, 48.874764673],
+                [2.386813394, 48.874601377],
+                [2.384960982, 48.873755493],
+                [2.382670515, 48.87341005],
+                [2.379834494, 48.872855789],
+                [2.377636579, 48.872301183],
+                [2.376904765, 48.872048259]
+              ]
+            ]
+          ],
+          "type": "MultiPolygon"
+        },
+        "properties": {
+
+        }
+      }
+    },
+    {
+      "idusager": "202512162",
+      "annee": "2020-05-29",
+      "pv": "3679",
+      "com_arm_code": 75103,
+      "victime_type": "2 Roues Motorisées",
+      "categorie": "Passager",
+      "gravite": "Blessé léger",
+      "age": 58,
+      "sexe_victime": "Feminin",
+      "milieu": "En-Agg",
+      "adresse": "BOULEVARD BEAUMARCHAIS",
+      "libelle_commune": "Paris 3e Arrondissement",
+      "longitude": "2.368063",
+      "latitude": "48.857599",
+      "id_accident": "66517874",
+      "pim_bp": "Paris Intra Muros",
+      "tranche_age_victime": "55-64 ans",
+      "blesses_legers": 1,
+      "hospitalises": null,
+      "tues": null,
+      "resume": "VC",
+      "coordonnes": {
+        "lon": 2.368063,
+        "lat": 48.857599
+      },
+      "iris": "Paris 11e Arrondissement",
+      "arronco": "75111",
+      "arrondgeo": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            [
+              [
+                [2.376904765, 48.872048259],
+                [2.378290113, 48.870774807],
+                [2.382970657, 48.867178291],
+                [2.383583979, 48.866266822],
+                [2.387334804, 48.862960317],
+                [2.389536803, 48.858488337],
+                [2.392259138, 48.857629828],
+                [2.394345092, 48.856519817],
+                [2.39844328, 48.851218141],
+                [2.399247133, 48.848870374],
+                [2.399121129, 48.848098096],
+                [2.395957776, 48.848378054],
+                [2.384457639, 48.850127142],
+                [2.381426254, 48.850408295],
+                [2.380114712, 48.850455468],
+                [2.378895747, 48.850624521],
+                [2.374776331, 48.85162653],
+                [2.372011671, 48.852380099],
+                [2.370227747, 48.853281767],
+                [2.369123881, 48.853166231],
+                [2.368490887, 48.855805186],
+                [2.366747947, 48.863076193],
+                [2.364890494, 48.866169984],
+                [2.364306785, 48.86730905],
+                [2.363872117, 48.867516287],
+                [2.365617798, 48.868236931],
+                [2.36761059, 48.868819457],
+                [2.369358395, 48.869485196],
+                [2.373350142, 48.870722966],
+                [2.376904765, 48.872048259]
+              ]
+            ]
+          ],
+          "type": "MultiPolygon"
+        },
+        "properties": {
+
+        }
+      }
+    },
+    {
+      "idusager": "188397",
+      "annee": "2021-06-18",
+      "pv": "4739",
+      "com_arm_code": 75113,
+      "victime_type": "Piéton",
+      "categorie": "Piéton",
+      "gravite": "Blessé hospitalisé",
+      "age": 13,
+      "sexe_victime": "Masculin",
+      "milieu": "En-Agg",
+      "adresse": "RUE DE TOLBIAC",
+      "libelle_commune": "Paris 13e Arrondissement",
+      "longitude": "2.368533",
+      "latitude": "48.827288",
+      "id_accident": "83046",
+      "pim_bp": "Paris Intra Muros",
+      "tranche_age_victime": null,
+      "blesses_legers": null,
+      "hospitalises": 1,
+      "tues": null,
+      "resume": "Accident Mortel, En agglomération, En X, Nuit avec éclairage public  allumé, avec une météo Normale et une surface chaussée : Normale. \n\n1 Moto ou sidecar \u003E 125 cm3 circulant sur Voie Communale VC (VMA à 30) conduit par 1 usager Masculin de 22 ans (BL)\n\n\nheurte 1 Piéton Feminin de 16 ans (T).\nheurte 1 Piéton Masculin de 13 ans (BH).",
+      "coordonnes": {
+        "lon": 2.368533,
+        "lat": 48.827288
+      },
+      "iris": "Paris 13e Arrondissement",
+      "arronco": "75113",
+      "arrondgeo": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            [
+              [
+                [2.364204281, 48.816398324],
+                [2.363328924, 48.816148135],
+                [2.356232015, 48.815942848],
+                [2.355852301, 48.815922816],
+                [2.35239184, 48.818551006],
+                [2.351253779, 48.817962037],
+                [2.347039462, 48.816046794],
+                [2.346541772, 48.815986515],
+                [2.345190828, 48.816092446],
+                [2.3443556, 48.816015918],
+                [2.344448463, 48.815562238],
+                [2.343902505, 48.815767001],
+                [2.344129231, 48.817772073],
+                [2.344591546, 48.819564379],
+                [2.343729865, 48.820503104],
+                [2.34248508, 48.821469395],
+                [2.341797488, 48.822530478],
+                [2.341460507, 48.823760772],
+                [2.341795702, 48.826448159],
+                [2.341592212, 48.826490209],
+                [2.341600018, 48.828352859],
+                [2.341356269, 48.829424471],
+                [2.341249912, 48.831588676],
+                [2.341072061, 48.831971729],
+                [2.342085567, 48.838343045],
+                [2.34700736, 48.837315956],
+                [2.351870772, 48.836804586],
+                [2.361745287, 48.839940706],
+                [2.365127018, 48.84441324],
+                [2.366087726, 48.844967843],
+                [2.373550475, 48.839328589],
+                [2.375321874, 48.837608377],
+                [2.378358229, 48.835023231],
+                [2.384304749, 48.830310724],
+                [2.388512316, 48.826743822],
+                [2.390072015, 48.825692327],
+                [2.389445425, 48.82534467],
+                [2.386941338, 48.824463064],
+                [2.385225588, 48.82372936],
+                [2.381524148, 48.822410676],
+                [2.380767117, 48.821700748],
+                [2.364204281, 48.816398324]
+              ]
+            ]
+          ],
+          "type": "MultiPolygon"
+        },
+        "properties": {
+
+        }
+      }
+    },
+    {
+      "idusager": "181219952",
+      "annee": "2019-06-24",
+      "pv": "6335",
+      "com_arm_code": 75111,
+      "victime_type": "Piéton",
+      "categorie": "Piéton",
+      "gravite": "Blessé léger",
+      "age": 67,
+      "sexe_victime": "Masculin",
+      "milieu": "En-Agg",
+      "adresse": "BOULEVARD VOLTAIRE",
+      "libelle_commune": "Paris 11e Arrondissement",
+      "longitude": "2.369337",
+      "latitude": "48.864228",
+      "id_accident": "63445570",
+      "pim_bp": "Paris Intra Muros",
+      "tranche_age_victime": "65-74 ans",
+      "blesses_legers": 1,
+      "hospitalises": null,
+      "tues": null,
+      "resume": "Accident Léger non mortel, En agglomération, Hors intersection, Plein jour, avec une météo Normale et une surface chaussée : Normale. \n\n1 Bicyclette circulant sur Voie Communale VC (VMA à 30) conduit par 1 usager Masculin de 58 ans (Ind)\n\n\nheurte 1 Piéton Masculin de 67 ans (BL).",
+      "coordonnes": {
+        "lon": 2.369337,
+        "lat": 48.864228
+      },
+      "iris": "Paris 11e Arrondissement",
+      "arronco": "75111",
+      "arrondgeo": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            [
+              [
+                [2.376904765, 48.872048259],
+                [2.378290113, 48.870774807],
+                [2.382970657, 48.867178291],
+                [2.383583979, 48.866266822],
+                [2.387334804, 48.862960317],
+                [2.389536803, 48.858488337],
+                [2.392259138, 48.857629828],
+                [2.394345092, 48.856519817],
+                [2.39844328, 48.851218141],
+                [2.399247133, 48.848870374],
+                [2.399121129, 48.848098096],
+                [2.395957776, 48.848378054],
+                [2.384457639, 48.850127142],
+                [2.381426254, 48.850408295],
+                [2.380114712, 48.850455468],
+                [2.378895747, 48.850624521],
+                [2.374776331, 48.85162653],
+                [2.372011671, 48.852380099],
+                [2.370227747, 48.853281767],
+                [2.369123881, 48.853166231],
+                [2.368490887, 48.855805186],
+                [2.366747947, 48.863076193],
+                [2.364890494, 48.866169984],
+                [2.364306785, 48.86730905],
+                [2.363872117, 48.867516287],
+                [2.365617798, 48.868236931],
+                [2.36761059, 48.868819457],
+                [2.369358395, 48.869485196],
+                [2.373350142, 48.870722966],
+                [2.376904765, 48.872048259]
+              ]
+            ]
+          ],
+          "type": "MultiPolygon"
+        },
+        "properties": {
+
+        }
+      }
+    },
+    {
+      "idusager": "202519251",
+      "annee": "2020-02-13",
+      "pv": "1827",
+      "com_arm_code": 75119,
+      "victime_type": "2 Roues Motorisées",
+      "categorie": "Conducteur",
+      "gravite": "Blessé léger",
+      "age": 50,
+      "sexe_victime": "Masculin",
+      "milieu": "En-Agg",
+      "adresse": "BOULEVARD DE LA VILLETTE",
+      "libelle_commune": "Paris 19e Arrondissement",
+      "longitude": "2.370446",
+      "latitude": "48.878432",
+      "id_accident": "66521048",
+      "pim_bp": "Paris Intra Muros",
+      "tranche_age_victime": "45-54 ans",
+      "blesses_legers": 1,
+      "hospitalises": null,
+      "tues": null,
+      "resume": "Accident Léger non mortel, En agglomération, Place, Plein jour, avec une météo Pluie légère et une surface chaussée : Mouillée. \n\n1 Véhicule de tourisme (VT) circulant sur Voie Communale VC (VMA à 50) conduit par 1 usager Masculin de 40 ans (Ind)\n\nheurte 1 Moto ou sidecar \u003E 125 cm3 conduit par 1 usager Masculin de 50 ans  ( BL )",
+      "coordonnes": {
+        "lon": 2.370446,
+        "lat": 48.878432
+      },
+      "iris": "Paris 19e Arrondissement",
+      "arronco": "75119",
+      "arrondgeo": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            [
+              [
+                [2.376904765, 48.872048259],
+                [2.370290292, 48.877990622],
+                [2.37022798, 48.882467161],
+                [2.370032562, 48.882840253],
+                [2.369301393, 48.883313048],
+                [2.368828249, 48.883872634],
+                [2.368498641, 48.884065151],
+                [2.367977989, 48.884155933],
+                [2.364713572, 48.884366187],
+                [2.366762718, 48.886644243],
+                [2.36756099, 48.888624279],
+                [2.368738771, 48.891028987],
+                [2.370035222, 48.89400537],
+                [2.370639175, 48.894703719],
+                [2.371791556, 48.895393251],
+                [2.371267007, 48.895797889],
+                [2.371175976, 48.895994362],
+                [2.370420494, 48.896658585],
+                [2.370254297, 48.899911435],
+                [2.370334572, 48.90094337],
+                [2.370170291, 48.901555837],
+                [2.370301805, 48.901847906],
+                [2.384530046, 48.902147593],
+                [2.389332401, 48.901161349],
+                [2.39083724, 48.900907313],
+                [2.395610585, 48.898169708],
+                [2.397667826, 48.894606196],
+                [2.398236115, 48.892640449],
+                [2.398941655, 48.889532349],
+                [2.399135941, 48.88853238],
+                [2.399251618, 48.88536195],
+                [2.400106665, 48.883821199],
+                [2.401507161, 48.882631206],
+                [2.404575851, 48.88126874],
+                [2.409359836, 48.880255513],
+                [2.410820319, 48.878436176],
+                [2.409924373, 48.878206931],
+                [2.40685319, 48.877182706],
+                [2.406163368, 48.877055179],
+                [2.402552809, 48.875995789],
+                [2.398965987, 48.875491296],
+                [2.39525077, 48.875247752],
+                [2.392262385, 48.875462847],
+                [2.390457493, 48.87543928],
+                [2.38964513, 48.875302939],
+                [2.388496636, 48.874764673],
+                [2.386813394, 48.874601377],
+                [2.384960982, 48.873755493],
+                [2.382670515, 48.87341005],
+                [2.379834494, 48.872855789],
+                [2.377636579, 48.872301183],
+                [2.376904765, 48.872048259]
+              ]
+            ]
+          ],
+          "type": "MultiPolygon"
+        },
+        "properties": {
+
+        }
+      }
+    }
+  ]
+}
