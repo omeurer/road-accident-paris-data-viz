@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Regression Plot with D3.js</title>
+    <!-- Load D3.js library -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        /* Add some basic styling */
+        .chart-container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .line {
+            fill: none;
+            stroke: steelblue;
+            stroke-width: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="chart-container">
+        <svg class="chart"></svg>
+    </div>
+
+    <!-- Inputs for adjusting coefficients a and b -->
+    <div>
+        <label for="a">Coefficient a:</label>
+        <input type="range" id="a" name="a" min="-10" max="10" value="1" step="0.1">
+        <span id="a-value">1</span>
+        <br>
+        <label for="b">Coefficient b:</label>
+        <input type="range" id="b" name="b" min="-100" max="100" value="0" step="1">
+        <span id="b-value">0</span>
+    </div>
+
+    <script>
+        // Initialize dataset (x values)
+        var xValues = d3.range(10); // [0, 1, 2, ..., 9]
+
+        // Set up the SVG canvas dimensions
+        var svgWidth = 500, svgHeight = 300;
+
+        // Create the SVG element
+        var svg = d3.select('.chart')
+                    .attr('width', svgWidth)
+                    .attr('height', svgHeight);
+
+        // Create a function to calculate y values based on a and b
+        function calculateY(a, b) {
+            return xValues.map(x => a * x + b);
+        }
+
+        // Create a line function for the regression line
+        var line = d3.line()
+                     .x((d, i) => i * (svgWidth / (xValues.length - 1)))
+                     .y(d => svgHeight - d * (svgHeight / 100));
+
+        // Initial values for coefficients a and b
+        var initial_a = parseFloat(document.getElementById('a').value);
+        var initial_b = parseFloat(document.getElementById('b').value);
+
+        // Draw initial line
+        svg.append('path')
+           .datum(calculateY(initial_a, initial_b))
+           .attr('class', 'line')
+           .attr('d', line);
+
+        // Update graph when coefficients change
+        function updateGraph() {
+            var a = parseFloat(document.getElementById('a').value);
+            var b = parseFloat(document.getElementById('b').value);
+
+            // Update line with new data
+            svg.select('.line')
+               .datum(calculateY(a, b))
+               .attr('d', line);
+
+            // Update coefficient values displayed
+            document.getElementById('a-value').textContent = a;
+            document.getElementById('b-value').textContent = b;
+        }
+
+        // Add event listeners to update graph when coefficients change
+        document.getElementById('a').addEventListener('input', updateGraph);
+        document.getElementById('b').addEventListener('input', updateGraph);
+    </script>
+</body>
+</html>
